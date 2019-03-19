@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="emobile:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/emobile_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="emobile/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="emobile" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.google.firebase:firebase-admin:6.7.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:Release" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
